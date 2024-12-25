@@ -28,10 +28,10 @@ numerical_cols = ['building_construction_year', 'building_total_floors', 'apartm
 
 # Using histogram
 print("\nHistograms for Numerical Features")
-plt.figure(figsize=(20, 15))
+plt.figure(figsize=(15, 10))
 for i, col in enumerate(numerical_cols, 1):
     plt.subplot(3, 3, i)
-    sns.histplot(df[col], kde=True)
+    sns.histplot(df[col])
     plt.title(f'Distribution of {col}')
 plt.tight_layout()
 plt.show()
@@ -39,7 +39,7 @@ plt.show()
 # 3. Box Plots for Numerical Features:
 
 print("\n-----Box Plots for Numerical Features-----")
-plt.figure(figsize=(20, 15))
+plt.figure(figsize=(15, 10))
 for i, col in enumerate(numerical_cols, 1):
     plt.subplot(3, 3, i)
     sns.boxplot(x=df[col])
@@ -80,7 +80,7 @@ plt.show()
 # 7. Correlation matrix heatmap of numerical data:
 print("\n-----Correlation Matrix Heatmap-----")
 corr = df[numerical_cols].corr()
-plt.figure(figsize=(12, 10))
+plt.figure(figsize=(8, 6))
 sns.heatmap(corr, annot=True, cmap='coolwarm', fmt='.2f', linewidths=0.5)
 plt.title('Correlation Matrix')
 plt.show()
