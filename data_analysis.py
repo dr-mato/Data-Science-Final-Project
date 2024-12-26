@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the cleaned data
-df = pd.read_csv('cleaned_real_estate_data.csv')
+df = pd.read_csv('.\data\cleaned_real_estate_data.csv')
 
 # --- Exploratory Data Analysis ---
 

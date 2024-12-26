@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load the data
-df = pd.read_csv('real_estate.csv')
+df = pd.read_csv('.\data\real_estate.csv')
 
 print("Original DataFrame Info:")
 df.info()
