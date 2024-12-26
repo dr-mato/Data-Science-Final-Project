@@ -14,7 +14,7 @@ from sklearn.pipeline import Pipeline
 
 
 # Load the cleaned data
-df = pd.read_csv('.\data\cleaned_real_estate_data.csv')
+df = pd.read_csv('./data/cleaned_real_estate_data.csv')
 
 
 # --- Feature Engineering/Selection ---

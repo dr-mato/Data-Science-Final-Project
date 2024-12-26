@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load the data
-df = pd.read_csv('.\data\real_estate.csv')
+df = pd.read_csv('./data/real_estate.csv')
 
 print("Original DataFrame Info:")
 df.info()
@@ -112,5 +112,5 @@ print(df.head())
 
 # 7. Save Cleaned Data to CSV
 # Rationale: After all processing steps, save cleaned data to a new csv for further use.
-df.to_csv('cleaned_real_estate_data.csv', index=False)  
+df.to_csv('./data/cleaned_real_estate_data.csv', index=False)  
 print("\nCleaned data saved to 'cleaned_real_estate_data.csv'")

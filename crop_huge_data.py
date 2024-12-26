@@ -12,6 +12,6 @@ def crop_csv(input_file, output_file, n_rows=5000):
     
     print(f"Successfully cropped {input_file} to {n_rows} rows and saved as {output_file}")
 
-input_file = ".\data\world_real_estate_data(147k).csv"
-output_file = ".\data\real_estate.csv"
+input_file = "./data/world_real_estate_data(147k).csv"
+output_file = "./data/real_estate.csv"
 crop_csv(input_file, output_file)
