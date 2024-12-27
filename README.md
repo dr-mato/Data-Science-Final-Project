@@ -57,6 +57,16 @@ This project analyzes international real estate data to uncover market trends, p
 - Model evaluation using RMSE and R² metrics
 - Cross-validation for robust performance assessment
 
+## Team Contributions
+
+This project was a collaborative effort by four team members: Luka, Dato, Giorgi, and Nugo. All four members worked closely together on all aspects of the project, including data acquisition, processing, analysis, and machine learning. Luka, Dato, and Giorgi were on campus and often collaborated in person, while Nugo joined their calls to contribute and participate in discussions. The project presentation was primarily developed by Dato, Luka, and Giorgi. The initial dataset was found on Kaggle.
+
+- If specific contributions must be highlighted:
+    - **Dato** had a more significant contribution to processing the data, focusing on cleaning and preparing the dataset.
+    - **Luka, Giorgi, and Nugo** had more contributions to the analysis and machine learning aspects of the project, focusing on exploratory data analysis, model building and evaluation, and generating insights from the data.
+
+The work was a truly collaborative effort, with each member providing input, support, and expertise across all stages of the project.
+
 ## Installation & Usage
 1. Clone the repository
 2. Install dependencies:
